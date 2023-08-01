@@ -1,18 +1,16 @@
 # laravel-react-starter-kit
 
-Laravel and React monolithic architecture starter kit.
+Laravel and React.js monolithic architecture starter kit.
 
-## Features
-Everything pre-configured with :
-- Vite$
-- React.js
-- TypeScript
-- Laravel
-- Monolithc architecture
+## Keywords
+- Vite
+- React.js / TypeScript
+- Laravel (API)
+- Monolithic architecture
 
 ## Installation
 
-1\. Create new composer project
+1\. Clone project
 
 ```
 git clone https://github.com/eliseekn/laravel-sanctum-starter-kit.git project-name
@@ -22,7 +20,8 @@ git clone https://github.com/eliseekn/laravel-sanctum-starter-kit.git project-na
 
 ```
 cd ./project-name
-composer install && yarn
+composer install
+yarn
 ```
 
 3\. Setup database
@@ -31,9 +30,13 @@ composer install && yarn
 php artian migrate --seed
 ```
 
-3\. Start server
-
+## Development
 ```
 yarn dev
 php artian serve
+```
+
+## Prepare for production
+```
+yarn build
 ```
