@@ -40,3 +40,11 @@ php artian serve
 ```
 yarn build
 ```
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+## Demo
+
+You can find a demo project [here](https://github.com/eliseekn/laravel-react-todo).
