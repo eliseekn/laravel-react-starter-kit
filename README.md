@@ -27,13 +27,13 @@ yarn
 3\. Setup database
 
 ```
-php artian migrate --seed
+php artisan migrate --seed
 ```
 
 ## Development
 ```
 yarn dev
-php artian serve
+php artisan serve
 ```
 
 ## Prepare for production
